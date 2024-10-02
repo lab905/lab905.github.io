@@ -1,0 +1,236 @@
+slogan: Glow in the Dark, Like a Luminous Gem.
+email: kisstherain@mail.ustc.edu.cn
+logo: "/images/logo.svg"
+
+mathjax: true # 加载 LateX 数学公式库
+
+favicon: # 配置网页图标
+  small: /images/favicon-16x16.png
+  medium: /images/favicon-32x32.png
+  apple_touch_icon: /images/apple-touch-icon.png
+  safari_pinned_tab: /images/logo.svg
+
+subpage: # 开启“子页”功能，详见 README
+  enable: true
+  pages:
+    - name: Computer 
+      path: computer
+      title: Computer
+      icon: /images/icon/icon-code.svg
+      description: "一个有纸、笔、橡皮擦并且坚持严格的行为准则的人，实质上就是一台通用图灵机。 - 艾伦·图灵"
+
+    - name: Math
+      path: math
+      title: Math
+      icon: /images/icon/icon-pi.svg
+      description: "大部分情况下，生活中最重要的问题只不过一个概率问题。 - 皮埃尔-西蒙·拉普拉斯"
+
+    - name: Prose
+      path: prose
+      title: Prose
+      icon: /images/icon/icon-book-opened.svg
+      description: "令她反感的，远不是世界的丑陋，而是这个世界所戴的漂亮面具。 - 米兰·昆德拉"
+
+index: # 配置首页个性化内容
+  enable: false
+  # motto: "长风破浪会有时！"
+  poem:
+    - 君不见高堂明镜悲白发
+    - 朝如青丝暮成雪
+  photo: /images/about.jpg
+  about:
+    title: 关于
+    text:
+      - 酒入豪肠,七分酿成了月光
+      -
+      - 余下的三分啸成剑气
+      -
+      - 绣口一吐就半个盛唐
+
+foot:
+  title:
+    - "相与枕藉乎舟中"
+    - "不知东方之既白"
+
+# links: # 朋友
+  # - name: "Jin Zhu"
+    # url: https://mamba413.github.io/
+
+social:
+  - name: "Luminite9"
+    icon: "/images/logo-github.svg"
+    url: https://github.com/Luminite9
+  #- name: "Eternity"
+  #  icon: "/images/logo-wx.svg"
+  #  url: https://mp.weixin.qq.com/s?__biz=MzI3NzQ4NDkzNg==&mid=2247484469&idx=1&sn=8a442bb67397f52cce5c38c3f9b41e36&chksm=eb64c0d2dc1349c40d2e1bb55615ae28b3f2951be22f00717b9ade98c851082e42dc666ab45d#rd
+  - name: "Luminite"
+    icon: "/images/logo-zh.svg"
+    url: https://www.zhihu.com/people/Luminite
+
+reward: # 赞赏
+  enable: false
+  face: /assets/author-face.jpg # 头像图片
+  paycode: /assets/pay-code.jpg # 支付码图片
+  text: “给作者倒杯卡布奇诺”
+  btnText: 喜欢作者
+
+# see https://github.com/gitalk/gitalk
+gitalk: # gitalk 评论
+  enable: false
+  owner: # MUST HAVE, Your Github Username
+  admin:
+  repo: # MUST HAVE, The name of the repo you use to store Gitment comments
+  clientID: # MUST HAVE, Github client id for the Gitment
+  clientSecret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+
+  distractionFreeMode: false # Facebook-like distraction free mode
+  # When the official proxy is not available, you can change it to your own proxy address
+  proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token # This is official proxy adress
+  # Gitalk's display language depends on user's browser or system environment
+  # If you want everyone visiting your site to see a uniform language, you can set a force language value
+  # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
+  language: zh-CN
+
+# see https://github.com/tea3/hexo-related-popular-posts
+related_post:
+  enable: false
+  config:
+    maxCount: 5 # Maximum count of a list. default 5
+    ulClass: # Class name of element. deafult 'popular-posts'
+    PPMixingRate: 0.4 # Mixing ratio of popular posts and related posts. default 0.0(=Related posts only)
+    isDate: # visible the date. false
+    isImage: # visible the image. false
+    isExcerpt: # visible the excerpt. false
+    PPCategoryFilter: # Option to fix category on Popular Posts. undefined
+    PPTagFilter: # Option to fix tag on Popular Posts. undefined
+
+# Baidu Webmaster tools verification.
+# See: https://ziyuan.baidu.com/site
+baidu_site_verification:
+
+# Baidu Analytics
+# See: https://tongji.baidu.com
+baidu_analytics: # <app_id>
+
+# 自定义字体，用于美化部分汉字的显示效果.
+# 可以通过替换 _font/ 目录下的字体文件替换自己喜欢的字体
+zh_font:
+  enable: true
+  fontName: sourceHanSerif
+  type: ttf
+  style:
+    - normal
+    - bold
+
+# 配置时间线 参考 README.md
+timeline:
+  enable: false
+  order: false # 是否按时间正序展示，false 为倒序
+  items:
+    - name: article
+      color: "#ee936c"
+      icon: /images/icon/icon-article.svg
+      checked: false
+    - name: app
+      color: "#60a465"
+      icon: /images/icon/icon-app.svg
+      checked: true
+    - name: event
+      color: "#568dc4"
+      icon: /images/icon/icon-event.svg
+      checked: false
+
+# 标签云
+tagcloud:
+  fancy: true
+  min_font: 14
+  max_font: 30
+
+mermaid:
+  enable: true # 启用 Mermaid 增强
+  version: latest
+  options:
+    startOnload: true
+
+cv:
+  enable: true
+  showInNav: true
+  iconPrefix: fas
+  keywords: Statistics, Data Science, Bioinformatics, Computer Science, Music
+  description: CV of Huiyang Peng
+  title: CV
+  content:
+    title: Huiyang Peng
+    baseInfo:
+      - 21 Years Old
+      - Master's student
+    # tel: +86 19825568520
+    email: kisstherain@mail.ustc.edu.cn
+    github: Luminite9
+    blog: Luminite
+    blogHref: https://luminite9.github.io
+
+    chapters:
+      - title: Education
+        icon: graduation-cap
+        sections:
+          - title: University of Science and Technology of China
+            description: Sept. 2023 - Present
+            content:
+              - Master's student in Statistics, School of Management
+          - title: University of Science and Technology of China
+            description: Sept. 2019 - June 2023
+            content:
+              - Bachelor of Statistics, School of the Gifted Young
+              - <b>GPA:</b> 3.75/4.30 (88.1/100)
+              - <b>Ranking:</b> 15/75 (Statistics)
+
+      - title: Papers
+        icon: file
+        sections:
+          - title: "Zezhi Wang, Jin Zhu, Peng Chen, <b>Huiyang Peng</b>, Xiaoke Zhang, Anran Wang, Yu Zheng, Junxian Zhu, Xueqin Wang. “skscope: Fast Sparsity-Constrained Optimization in Python”"
+            description: <i>JMLR</i>, 2024
+            link: https://doi.org/10.48550/arXiv.2403.18540
+
+      - title: Research Experience
+        icon: magnifying-glass
+        sections:
+          - title: "Data Analysis on UK Biobank"
+            description: Oct. 2022 - Present
+            list: true
+            content:
+              - "Develop new methods for GWAS based on UK Biobank data."
+          
+          - title: "Python package: skscope"
+            description: July. 2023 - Present
+            list: true
+            content:
+              - Established online documentation for software, wrote part of the documentation, and conducted some experiments.
+
+          - title: Best Subset Selection in Deep Neural Network
+            description: Sept. 2023 - Present
+            list: true
+            content:
+              - Developed an efficient algorithm for best subset recovery in deep neural network.
+              - Conducted the coding component including algorithm, simulation and real data analysis.
+      
+      - title: Teaching Experience
+        icon: chalkboard
+        list: true
+        content:
+          - <b>TA, Mathematical analysis B1 (Credit:6)</b>  <i>Sept. 2022 - Jan. 2023</i>
+          - <b>TA, Mathematical analysis B2 (Credit:6)</b>  <i>Feb. 2023 - Jul. 2023</i>
+          - <b>TA, Probability theory and mathematical statistics(Credit:3)</b>  <i>Sept. 2024 - Jan. 2025</i>
+      - title: Honors And Awards
+        icon: award
+        list: true
+        content:
+          - <b>Outstanding Graduate Award</b>  <i>Jun. 2023</i>
+          - <b>Outstanding Students Scholarship</b>  <i>Nov. 2020 & Nov. 2021 & Nov. 2022</i>
+          - <b>Cyrus Tang Scholarship</b>  <i>June. 2020 - June. 2023</i>
+      
+search:
+  path: search.json
+  enable: true
+  field: post
+  content: true
